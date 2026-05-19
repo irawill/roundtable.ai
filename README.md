@@ -19,7 +19,7 @@
 
 > 觉得不错？欢迎在 [GitHub](https://github.com/irawill/roundtable.ai) 上点个 ⭐ Star 支持，让更多人发现它。
 
-**v0.1.0 — npm + npx 起步发布。**
+**v0.1.0 已上线**：`npm install -g @roundtablelabs/cli` 或 `npx @roundtablelabs/cli "你的问题"` 即可使用。详见 [npm 主页](https://www.npmjs.com/package/@roundtablelabs/cli)。
 
 ## 是什么
 

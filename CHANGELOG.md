@@ -2,7 +2,10 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与 [Semantic Versioning](https://semver.org/lang/zh-CN/)。
 
-## [0.1.0] — 2026-05-15
+- 📦 npm：<https://www.npmjs.com/package/@roundtablelabs/cli>
+- 🐙 GitHub：<https://github.com/irawill/roundtable.ai>
+
+## [0.1.0] — 2026-05-19
 
 **首次发布**。把"同一个问题问 ChatGPT / Claude / Gemini 然后人脑汇总"的流程自动化成本地 CLI。
 

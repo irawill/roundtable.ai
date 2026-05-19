@@ -19,7 +19,7 @@
 
 > Like the idea? Please [give it a ⭐ on GitHub](https://github.com/irawill/roundtable.ai) — it helps others discover it.
 
-**v0.1.0 — initial release on npm + npx.**
+**v0.1.0 is live**: install via `npm install -g @roundtablelabs/cli` or try without install via `npx @roundtablelabs/cli "your question"`. See the [npm page](https://www.npmjs.com/package/@roundtablelabs/cli).
 
 ## What is it
 
