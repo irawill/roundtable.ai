@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "pt-BR",
+    "name": "Português (Brasil)",
+    "quality": "community"
+  },
+  "common.continue": "Continuar",
+  "common.cancel": "Cancelar",
+  "common.confirm": "Confirmar",
+  "common.yes": "Sim",
+  "common.no": "Não",
+  "common.edit": "Editar",
+  "community_pack.notice": "As traduções {lang} são uma base comunitária. PRs são bem-vindos para imprecisões.",
+  "finalizer.title.default": "Resposta da Roundtable",
+  "finalizer.section.consensus": "Consenso",
+  "finalizer.section.disagreements": "Matriz de Divergências",
+  "finalizer.section.full_answers": "Respostas Completas",
+  "finalizer.section.next_steps": "Seu Próximo Passo",
+  "finalizer.single_agent.footer": "Respondido apenas por {agent} (sem revisão por pares)",
+  "finalizer.footer.scene": "Cenário",
+  "finalizer.footer.rounds": "Rodadas",
+  "finalizer.footer.participants": "Participantes",
+  "finalizer.footer.executor": "Redator",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 execução efêmera (--no-persist; nada em disco)",
+  "no_persist.final_md_note": "Nota: esta execução não foi persistida (--no-persist).",
+  "no_persist.discarded": "Descartado (--no-persist; resume indisponível)",
+  "followup.priorChainHeader": "Cadeia de discussão anterior",
+  "followup.roundLabel": "Rodada",
+  "followup.currentTurnHeader": "Pergunta de acompanhamento"
+}

@@ -1,0 +1,14 @@
+{
+  "answer": "Vite 5 + TypeScript 5 + React 18 是当前 SPA 起步首选。",
+  "key_claims": [
+    "Vite 5 启动 <100ms",
+    "TypeScript 5 strict mode 默认开"
+  ],
+  "uncertainty_notes": [],
+  "search_evidence": [],
+  "usage": {
+    "input_tokens": 132,
+    "output_tokens": 56,
+    "reasoning_tokens": 128
+  }
+}

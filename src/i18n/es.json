@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "es",
+    "name": "Español",
+    "quality": "community"
+  },
+  "common.continue": "Continuar",
+  "common.cancel": "Cancelar",
+  "common.confirm": "Confirmar",
+  "common.yes": "Sí",
+  "common.no": "No",
+  "common.edit": "Editar",
+  "community_pack.notice": "Las traducciones {lang} son una base comunitaria. PRs bienvenidas para inexactitudes.",
+  "finalizer.title.default": "Respuesta de Roundtable",
+  "finalizer.section.consensus": "Consenso",
+  "finalizer.section.disagreements": "Matriz de Desacuerdos",
+  "finalizer.section.full_answers": "Respuestas Completas",
+  "finalizer.section.next_steps": "Tu Próximo Paso",
+  "finalizer.single_agent.footer": "Respondido solo por {agent} (sin revisión por pares)",
+  "finalizer.footer.scene": "Escenario",
+  "finalizer.footer.rounds": "Rondas",
+  "finalizer.footer.participants": "Participantes",
+  "finalizer.footer.executor": "Redactor",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 ejecución efímera (--no-persist; nada en disco)",
+  "no_persist.final_md_note": "Nota: esta ejecución no se persistió (--no-persist).",
+  "no_persist.discarded": "Descartado (--no-persist; resume no disponible)",
+  "followup.priorChainHeader": "Cadena de discusión previa",
+  "followup.roundLabel": "Ronda",
+  "followup.currentTurnHeader": "Pregunta de seguimiento"
+}

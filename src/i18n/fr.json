@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "fr",
+    "name": "Français",
+    "quality": "community"
+  },
+  "common.continue": "Continuer",
+  "common.cancel": "Annuler",
+  "common.confirm": "Confirmer",
+  "common.yes": "Oui",
+  "common.no": "Non",
+  "common.edit": "Éditer",
+  "community_pack.notice": "Les traductions {lang} sont une base communautaire. PRs bienvenues pour les inexactitudes.",
+  "finalizer.title.default": "Réponse de Roundtable",
+  "finalizer.section.consensus": "Consensus",
+  "finalizer.section.disagreements": "Matrice des désaccords",
+  "finalizer.section.full_answers": "Réponses complètes",
+  "finalizer.section.next_steps": "Votre prochaine étape",
+  "finalizer.single_agent.footer": "Répondu uniquement par {agent} (sans revue par les pairs)",
+  "finalizer.footer.scene": "Scène",
+  "finalizer.footer.rounds": "Tours",
+  "finalizer.footer.participants": "Participants",
+  "finalizer.footer.executor": "Rédacteur",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 exécution éphémère (--no-persist ; rien sur le disque)",
+  "no_persist.final_md_note": "Note : cette exécution n'a pas été persistée (--no-persist).",
+  "no_persist.discarded": "Abandonné (--no-persist ; resume indisponible)",
+  "followup.priorChainHeader": "Chaîne de discussion précédente",
+  "followup.roundLabel": "Tour",
+  "followup.currentTurnHeader": "Question de suivi"
+}

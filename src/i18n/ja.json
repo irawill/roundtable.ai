@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "ja",
+    "name": "日本語",
+    "quality": "community"
+  },
+  "common.continue": "続行",
+  "common.cancel": "キャンセル",
+  "common.confirm": "確認",
+  "common.yes": "はい",
+  "common.no": "いいえ",
+  "common.edit": "編集",
+  "community_pack.notice": "{lang} 翻訳はコミュニティベースです。不正確な箇所は GitHub で報告してください。",
+  "finalizer.title.default": "ラウンドテーブル回答",
+  "finalizer.section.consensus": "合意部分",
+  "finalizer.section.disagreements": "見解の相違マトリックス",
+  "finalizer.section.full_answers": "各社の完全な回答",
+  "finalizer.section.next_steps": "次のステップ",
+  "finalizer.single_agent.footer": "{agent} のみによる回答（ピアレビューなし）",
+  "finalizer.footer.scene": "シーン",
+  "finalizer.footer.rounds": "ラウンド数",
+  "finalizer.footer.participants": "参加者",
+  "finalizer.footer.executor": "執筆者",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 一時実行（--no-persist；ディスクに保存されません）",
+  "no_persist.final_md_note": "注：この実行は永続化されません（--no-persist）。",
+  "no_persist.discarded": "破棄（--no-persist；resume 不可）",
+  "followup.priorChainHeader": "これまでの議論の流れ",
+  "followup.roundLabel": "ラウンド",
+  "followup.currentTurnHeader": "今回の追加質問"
+}

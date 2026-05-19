@@ -1,0 +1,9 @@
+{
+  "answer": "建议用 Vite + React + TS；Vite 在 SSR 场景上限略低于 Next.js，但 SPA 是最优解。",
+  "key_claims": [
+    "Vite SPA 启动快",
+    "Next.js 适合 SSR / RSC"
+  ],
+  "uncertainty_notes": ["RSC 在 Vite 上的支持仍 experimental"],
+  "search_evidence": []
+}

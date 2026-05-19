@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "ko",
+    "name": "한국어",
+    "quality": "community"
+  },
+  "common.continue": "계속",
+  "common.cancel": "취소",
+  "common.confirm": "확인",
+  "common.yes": "예",
+  "common.no": "아니오",
+  "common.edit": "편집",
+  "community_pack.notice": "{lang} 번역은 커뮤니티 기준입니다. 부정확한 항목은 GitHub 에 알려주세요.",
+  "finalizer.title.default": "라운드테이블 답변",
+  "finalizer.section.consensus": "합의 부분",
+  "finalizer.section.disagreements": "이견 매트릭스",
+  "finalizer.section.full_answers": "각 모델의 전체 답변",
+  "finalizer.section.next_steps": "다음 단계",
+  "finalizer.single_agent.footer": "{agent} 단독 답변 (피어 리뷰 없음)",
+  "finalizer.footer.scene": "씬",
+  "finalizer.footer.rounds": "라운드",
+  "finalizer.footer.participants": "참여자",
+  "finalizer.footer.executor": "집필자",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 일시적 실행 (--no-persist; 디스크에 저장되지 않음)",
+  "no_persist.final_md_note": "참고: 이 실행은 영속화되지 않았습니다 (--no-persist).",
+  "no_persist.discarded": "폐기됨 (--no-persist; resume 불가)",
+  "followup.priorChainHeader": "이전 논의 흐름",
+  "followup.roundLabel": "라운드",
+  "followup.currentTurnHeader": "이번 추가 질문"
+}

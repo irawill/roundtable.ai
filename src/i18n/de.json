@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "de",
+    "name": "Deutsch",
+    "quality": "community"
+  },
+  "common.continue": "Weiter",
+  "common.cancel": "Abbrechen",
+  "common.confirm": "Bestätigen",
+  "common.yes": "Ja",
+  "common.no": "Nein",
+  "common.edit": "Bearbeiten",
+  "community_pack.notice": "{lang}-Übersetzungen sind eine Community-Basis. PRs für Ungenauigkeiten sind willkommen.",
+  "finalizer.title.default": "Roundtable-Antwort",
+  "finalizer.section.consensus": "Konsens",
+  "finalizer.section.disagreements": "Meinungsverschiedenheitsmatrix",
+  "finalizer.section.full_answers": "Vollständige Antworten",
+  "finalizer.section.next_steps": "Dein nächster Schritt",
+  "finalizer.single_agent.footer": "Allein von {agent} beantwortet (ohne Peer-Review)",
+  "finalizer.footer.scene": "Szene",
+  "finalizer.footer.rounds": "Runden",
+  "finalizer.footer.participants": "Teilnehmer",
+  "finalizer.footer.executor": "Verfasser",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 flüchtiger Lauf (--no-persist; nichts auf Festplatte)",
+  "no_persist.final_md_note": "Hinweis: Dieser Lauf wurde nicht persistiert (--no-persist).",
+  "no_persist.discarded": "Verworfen (--no-persist; resume nicht verfügbar)",
+  "followup.priorChainHeader": "Vorherige Diskussionskette",
+  "followup.roundLabel": "Runde",
+  "followup.currentTurnHeader": "Aktuelle Folgefrage"
+}

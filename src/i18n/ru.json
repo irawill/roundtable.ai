@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "ru",
+    "name": "Русский",
+    "quality": "community"
+  },
+  "common.continue": "Продолжить",
+  "common.cancel": "Отмена",
+  "common.confirm": "Подтвердить",
+  "common.yes": "Да",
+  "common.no": "Нет",
+  "common.edit": "Редактировать",
+  "community_pack.notice": "Переводы {lang} — это базовый общественный вариант. Приветствуются PR с исправлениями.",
+  "finalizer.title.default": "Ответ Roundtable",
+  "finalizer.section.consensus": "Консенсус",
+  "finalizer.section.disagreements": "Матрица разногласий",
+  "finalizer.section.full_answers": "Полные ответы",
+  "finalizer.section.next_steps": "Ваш следующий шаг",
+  "finalizer.single_agent.footer": "Ответ только от {agent} (без рецензирования коллегами)",
+  "finalizer.footer.scene": "Сцена",
+  "finalizer.footer.rounds": "Раунды",
+  "finalizer.footer.participants": "Участники",
+  "finalizer.footer.executor": "Автор",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 эфемерный запуск (--no-persist; ничего на диске)",
+  "no_persist.final_md_note": "Примечание: этот запуск не был сохранён (--no-persist).",
+  "no_persist.discarded": "Отброшено (--no-persist; resume недоступен)",
+  "followup.priorChainHeader": "Предыдущая цепочка обсуждения",
+  "followup.roundLabel": "Раунд",
+  "followup.currentTurnHeader": "Текущий уточняющий вопрос"
+}

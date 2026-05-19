@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # PR + main 都跑：lint / typecheck / unit tests / build
+  unit:
+    name: Unit (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['22', '24']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Install
+        run: npm ci
+      - name: Typecheck
+        run: npx tsc --noEmit
+      - name: Unit tests
+        run: npx vitest run --project unit
+      - name: Build
+        run: npx tsup
+      - name: Smoke test
+        run: node dist/cli.js --version && node dist/cli.js --help
+
+  # 仅 main：integration（需要 claude / codex / gemini CLI + 鉴权；CI runner 上一般不会跑通）
+  # 策略：仅在 main 跑，使用 cheap model + 短 prompt + 严格 token 上限
+  integration:
+    name: Integration (main only)
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    continue-on-error: true # 没装 CLI 时不挂掉 main pipeline
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install
+        run: npm ci
+      - name: Integration tests (skipped if CLIs not installed)
+        run: npx vitest run --project integration
+        env:
+          # 在 GitHub Actions secrets 中配置 CLAUDE / CODEX / GEMINI 凭据后启用
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}

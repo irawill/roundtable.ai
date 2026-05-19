@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "en",
+    "name": "English",
+    "quality": "verified"
+  },
+  "common.continue": "Continue",
+  "common.cancel": "Cancel",
+  "common.confirm": "Confirm",
+  "common.yes": "Yes",
+  "common.no": "No",
+  "common.edit": "Edit",
+  "community_pack.notice": "{lang} translations are a community baseline. Welcome PRs for inaccuracies.",
+  "finalizer.title.default": "Roundtable Answer",
+  "finalizer.section.consensus": "Consensus",
+  "finalizer.section.disagreements": "Disagreements Matrix",
+  "finalizer.section.full_answers": "Full Answers",
+  "finalizer.section.next_steps": "Your Next Step",
+  "finalizer.single_agent.footer": "Answered by {agent} alone (not peer-reviewed)",
+  "finalizer.footer.scene": "Scene",
+  "finalizer.footer.rounds": "Rounds",
+  "finalizer.footer.participants": "Participants",
+  "finalizer.footer.executor": "Executor",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 ephemeral run (--no-persist; nothing on disk)",
+  "no_persist.final_md_note": "Note: this run was not persisted (--no-persist).",
+  "no_persist.discarded": "Discarded (--no-persist; resume unavailable)",
+  "followup.priorChainHeader": "Prior discussion chain",
+  "followup.roundLabel": "Round",
+  "followup.currentTurnHeader": "Current follow-up"
+}

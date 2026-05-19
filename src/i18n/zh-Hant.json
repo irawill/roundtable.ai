@@ -1,0 +1,31 @@
+{
+  "$meta": {
+    "language": "zh-Hant",
+    "name": "繁體中文",
+    "quality": "community"
+  },
+  "common.continue": "繼續",
+  "common.cancel": "取消",
+  "common.confirm": "確認",
+  "common.yes": "是",
+  "common.no": "否",
+  "common.edit": "編輯",
+  "community_pack.notice": "{lang} 翻譯為社區基線，歡迎在 GitHub 回報不準確字段。",
+  "finalizer.title.default": "圓桌答案",
+  "finalizer.section.consensus": "共識部分",
+  "finalizer.section.disagreements": "分歧矩陣",
+  "finalizer.section.full_answers": "各家完整答案",
+  "finalizer.section.next_steps": "你的下一步",
+  "finalizer.single_agent.footer": "由 {agent} 單獨作答（未經圓桌評審）",
+  "finalizer.footer.scene": "場景",
+  "finalizer.footer.rounds": "輪次",
+  "finalizer.footer.participants": "參與者",
+  "finalizer.footer.executor": "執筆人",
+  "finalizer.footer.run_id": "Run ID",
+  "no_persist.banner": "🚫 臨時運行（--no-persist；未落盤）",
+  "no_persist.final_md_note": "註：本次運行未持久化（--no-persist）。",
+  "no_persist.discarded": "已丟棄（--no-persist；無法 resume）",
+  "followup.priorChainHeader": "先前討論的鏈路",
+  "followup.roundLabel": "第",
+  "followup.currentTurnHeader": "本輪追問"
+}

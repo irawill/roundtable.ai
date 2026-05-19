@@ -1,0 +1,68 @@
+{
+  "name": "@roundtablelabs/cli",
+  "version": "0.1.0",
+  "description": "Roundtable.ai — 把多家旗舰 AI 通过 CLI 拉到一桌，并行作答 + 交叉评审 + 收敛/分歧的本地命令行工具",
+  "type": "module",
+  "bin": {
+    "rtai": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run --project unit",
+    "test:watch": "vitest --project unit",
+    "test:integration": "vitest run --project integration",
+    "lint": "biome check src tests",
+    "format": "biome format --write src tests",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/irawill/roundtable.ai#readme",
+  "bugs": {
+    "url": "https://github.com/irawill/roundtable.ai/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irawill/roundtable.ai.git"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "claude",
+    "codex",
+    "gemini",
+    "multi-agent",
+    "roundtable"
+  ],
+  "author": "Roundtable Labs",
+  "dependencies": {
+    "@hono/node-server": "^2.0.2",
+    "commander": "^14.0.3",
+    "hono": "^4.12.18",
+    "ink": "^7.0.3",
+    "ink-spinner": "^5.0.0",
+    "ink-table": "^3.1.0",
+    "marked": "^18.0.3",
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.15",
+    "@types/node": "^25.7.0",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}

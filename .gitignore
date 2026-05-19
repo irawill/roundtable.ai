@@ -1,0 +1,25 @@
+# AI 工作流生成文档
+docs/superpowers/
+.superpowers/
+
+# OpenSpec 规格与变更文件
+openspec/
+
+# AI 工具配置与工作文件
+.claude/
+.codex/
+CLAUDE.md
+
+# Node / TS 构建产物
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+
+# npm pack 产物
+*.tgz
+
+# 本地运行数据
+runs/
+
